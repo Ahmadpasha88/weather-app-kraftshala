@@ -1,0 +1,69 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.fav-list {
+  list-style-type: none;
+}
+.wetherBg {
+  background: url('https://images.pexels.com/photos/55787/pexels-photo-55787.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  min-height:   100vh;
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+}
+
+.wetherResultBox {
+  margin: auto;
+  width: 500px;
+  height: 300px;
+}
+.weathorIcon {
+  margin-top: 2rem;
+  width: 100px;
+  height: 100px;
+}
+.weathorCity {
+  font-size: 35px;
+}
+.weathorTemp {
+  font-size: 55px;
+  font-weight: 700;
+}
+.fav-heading {
+  color: black;
+  font-weight: 700;
+  font-size: 30px;
+  font-family: roboto;
+  text-decoration: underline;
+}
+
+.detail-heading {
+  font-size: 100%;
+  font-family: Verdana;
+}
+
+.detail-main {
+  font-size: 120%;
+  font-family: Verdana;
+  font-weight: 900;
+}
+
+.detail-container{
+    background-color: wheat;
+    
+}
+
+
+
